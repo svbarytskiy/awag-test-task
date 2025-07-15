@@ -13,7 +13,7 @@ export const ReviewCard: FC<Props> = ({ review, className }) => {
         bg-white p-4 sm:p-7 relative rounded-lg shadow-lg
         flex flex-col justify-between text-left border border-gray-300
         w-full max-w-sm mx-auto
-        h-85
+        h-87
         md:w-95 sm:h-125
         ${className}
       `}
