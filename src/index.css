@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-staatliches: "Staatliches", sans-serif;
+  --color-gray-100: #d9d9d9;
+  --color-gray-200: #c6c5c6;
+  --color-gray-300: #b6b1b1;
+  --color-gray-400: #9b9a99;
+  --color-gray-500: #707070;
+  --color-gray-600: #4b4b4b;
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  min-width: 320px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
